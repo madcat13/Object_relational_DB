@@ -10,8 +10,6 @@ CREATE TYPE Production_t
 /
 CREATE TYPE ForceUsage_t
 /
-
-
 CREATE or replace TYPE Product_nt_type AS TABLE of REF Product_t
 /
 CREATE or replace TYPE Workforce_nt_type AS TABLE of REF Workforce_t
@@ -80,7 +78,6 @@ CREATE OR REPLACE TYPE Production_ForceUsage_nt_type AS TABLE of REF Production_
 /
 CREATE OR REPLACE TYPE Workforce_ForceUsage_nt_type AS TABLE of REF Workforce_t
 /
-
 
 CREATE OR REPLACE TYPE ForceUsage_t AS OBJECT
 
