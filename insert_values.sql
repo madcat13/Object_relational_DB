@@ -1,4 +1,4 @@
-REM --insert values in tables
+--REM --insert values in tables
 
 
 --Workforce_table
@@ -88,7 +88,7 @@ values (50, '27/JAN/2019', 80, 19.88, '5');
 
 
 
-REM--Factory
+--REM --Factory
 
 -- product to factory
 
@@ -427,7 +427,7 @@ SET product_REF = (SELECT REF(p) FROM product_TAB p WHERE p.productId = '15')
 WHERE prodOrderId = '5';
 
 
-REM WORKFORCE
+--REM WORKFORCE
 
 --Factory_ref in workforce
 
