@@ -1,4 +1,4 @@
-REM creating tables
+--REM create tables
 
  CREATE TABLE Factory_tab of Factory_t
  (PRIMARY KEY (FactoryId))
@@ -27,7 +27,7 @@ CREATE TABLE ForceUsage_tab of ForceUsage_t
 /
 
 
-REM setting foreign keys
+--REM set foreign keys
 
 ALTER TABLE Production_tab Add constraint
 product_REF_FK Foreign Key (product_Ref) References Product_tab;
